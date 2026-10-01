@@ -19,6 +19,9 @@ on:
 jobs:
   green-checks:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
 
     steps:
 
